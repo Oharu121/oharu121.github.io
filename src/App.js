@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Instructions from './Instructions';
 
 const displayEmojiName = event => alert(event.target.id);
 const emojis = [
@@ -23,10 +24,13 @@ const emojis = [
 
 function App() {
   const greeting = "greeting";
+  const displayLove = true;
+
   return(
     <div className="container">
       <h1 id={greeting}>Hello, World</h1>
-      <p>I am writing JSX</p>
+      {displayLove && <p>我愛韓寶寶💕</p>}
+      <Instructions />
       <ul>
         {
           emojis.map(emoji => (
