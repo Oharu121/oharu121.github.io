@@ -29,8 +29,7 @@ function App() {
   return(
     <div className="container">
       <h1 id={greeting}>Hello, World</h1>
-      <p>我愛韓寶寶💕</p>
-      <Instructions />
+      {displayLove && <p>我愛韓寶寶💕</p>}
       <ul>
         {
           emojis.map(emoji => (
