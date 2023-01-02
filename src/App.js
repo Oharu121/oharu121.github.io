@@ -29,7 +29,7 @@ function App() {
   return(
     <div className="container">
       <h1 id={greeting}>Hello, World</h1>
-      {displayLove && <p>我愛韓寶寶💕</p>}
+      <p>我愛韓寶寶💕</p>
       <Instructions />
       <ul>
         {
