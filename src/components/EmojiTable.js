@@ -1,4 +1,5 @@
 import React from 'react';
+import './EmojiTable.css';
 
 const displayEmojiName = event => alert(event.target.id);
 const greeting = "greeting";
