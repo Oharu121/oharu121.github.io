@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import EmojiTable from '.components/EmojiTable.js'
+import EmojiTable from './components/EmojiTable.js'
 
 function App() {
   return(
